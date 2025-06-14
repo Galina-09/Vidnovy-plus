@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { HomePage } from './pages/HomePage';
 import { DashboardPage } from './pages/DashboardPage';
@@ -37,7 +37,7 @@ function App() {
                   Разом ми будуємо краще майбутне.
                 </p>
                 <div className="text-sm text-gray-500">
-                  © 2024 Vidnovy+. Всі права захищені.
+                  © 2025 Vidnovy+. Всі права захищені.
                 </div>
               </div>
               
